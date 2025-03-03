@@ -19,9 +19,9 @@ h1{
 #hirohome{
     
     position:absolute;
-    left: 1200px;
-    top: 300px;
-    text-align: right;
+    left: 1400px;
+    top: 400px;
+    text-align: left;
     padding: 100px;
    
 }
@@ -36,6 +36,12 @@ button{
     left:500px;
    font-size: large;
 }
+#h {
+    text-align:right;
+    align-items: right;
+    position: absolute;
+    left:1000px;
+}
 /*nav adjustments base color*/
 nav{
     background-color: black;
@@ -49,6 +55,7 @@ nav{
 nav a {
 transition: all 50ms;
 }
+
 
 /*nav interaction attempt*/
 nav a:hover{
@@ -69,11 +76,16 @@ a {
 }
 #gif{
    position: absolute;
-   left: 900px;
+   left: 700px;
    top:500px
    
 }
 
+#t{
+    position: absolute;
+    top: 400px;
+    right: 400px;
+}
 /* Inspo edits vvv */
 .inspo{
     background-color: black;
@@ -81,6 +93,7 @@ a {
     padding: 50px;
     font-size
 }
+
 
 
 /*Hiro*/
